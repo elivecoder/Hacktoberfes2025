@@ -1,0 +1,8 @@
+#include <iostream>
+namespace ns1 {int val(){return 5;}}
+using namespace ns1;
+using namespace std;
+int main()
+{
+    cout << val(); 
+}
